@@ -1,14 +1,13 @@
 {
   "name": "estilos",
   "version": "1.0.0",
-  "description": "",
+  "description": "Heredar estilos",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+  "scripts": {    
     "build:dev": "sass scss/custom.scss build/custom.css",
     "build:prod": "sass --style compressed scss/custom.scss build/custom.css"
   },
-  "author": "",
+  "author": "Pablo Velez",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.3.1",
